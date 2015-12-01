@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+
+<!-- This Source Code is subject to the terms of the Mozilla Public License
+   - version 2.0 (the "License"). You can obtain a copy of the License at
+   - http://mozilla.org/MPL/2.0/.-->
+
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+	<Description about="urn:mozilla:install-manifest">
+		<em:id>filetypecontentblocker@lolirofle</em:id>
+		<em:version>1.0</em:version>
+		<em:name>Filetype Content Blocker</em:name>
+		<em:description>Blocks the loading of content by filetype on mobile devices</em:description>
+		<em:creator>Lolirofle</em:creator>
+		<em:type>2</em:type> <!-- Extension -->
+		<em:bootstrap>true</em:bootstrap> <!-- Restartless installation -->
+		<em:targetApplication>
+			<Description>
+				<em:id>{aa3c5121-dab2-40e2-81ca-7ea25febc110}</em:id> <!-- Firefox for Android -->
+				<em:minVersion>20.0</em:minVersion>
+				<em:maxVersion>42.*</em:maxVersion>
+			</Description>
+		</em:targetApplication>
+	</Description>
+</RDF>

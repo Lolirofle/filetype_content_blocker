@@ -1,0 +1,9 @@
+pref("lolirofle.filetypecontentblocker.enabled",false);
+pref("lolirofle.filetypecontentblocker.type.image",true);
+pref("lolirofle.filetypecontentblocker.type.script",false);
+pref("lolirofle.filetypecontentblocker.type.font",false);
+pref("lolirofle.filetypecontentblocker.type.media",false);
+pref("lolirofle.filetypecontentblocker.type.object",false);
+pref("lolirofle.filetypecontentblocker.type.stylesheet",false);
+pref("lolirofle.filetypecontentblocker.type.subdocument",false);
+pref("lolirofle.filetypecontentblocker.type.xmlhttprequest",false);
